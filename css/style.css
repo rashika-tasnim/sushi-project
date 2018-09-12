@@ -1,0 +1,167 @@
+body,html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+    font-size: 100%;
+    background: url(../img/grapes-bw-doors-barn-71758.jpeg);
+    background-attachment: fixed;
+}
+
+.navbar{
+    margin: 0 auto;
+    background: transparent!important;
+    
+}
+
+
+#header, #wrapper{
+    height: 580px;
+    background: url(../img/HNCK2017.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid red;
+    margin-top:-80px;
+    
+    
+}
+
+
+#header p{
+    font-size: 35px;
+    font-weight: bolder;
+}
+#header .content{
+    padding-top: 260px;
+}
+#header p:hover{
+    color: white;
+}
+
+
+#header .content a{
+    background-color: white;
+    font-size: 29px;
+    padding: 4px 10px;
+    opacity: 0.6;
+    text-decoration: none;
+    border:0.15rem solid black;
+}
+
+
+#header .content a:hover{
+    background-color: red;
+    opacity: 2;
+}
+
+
+.navbar button{
+    background-color: red;
+}
+
+.navbar button:hover{
+    background-color: black !important;
+}
+.navbar-brand{
+    color: black !important;
+    font-size: 5em;
+}
+.navbar a:not(.navbar-brand){
+    color: red!important;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+
+.navbar a:not(.navbar-brand):hover{
+    color: black!important;
+}
+col-lg-4{
+    position: relative;
+}
+#photos{
+    padding: 50px 10px;
+}
+#photos img{
+    margin: 0 auto;
+    display: block;
+    height: 230px;
+    width: 100%;
+    margin:12px 10px;
+    padding: 2px 10px;
+    border-radius: 20px;
+    transition: transform 2s ease-in-out;
+    
+}
+
+#photos img:hover{
+    transform: scale(1.13);
+    opacity: 0.8;
+}
+
+#photos h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: red;
+    display: none;
+    font-size: 5em;
+}
+
+#photos .col-lg-4:hover h2{
+    display: block;
+}
+
+#form{
+    padding: 40px 30px;
+
+}
+
+#form h1,h3{
+    color: red;
+    font-size: bolder;
+}
+
+.form{
+    background-color: black;
+    opacity: 0.7;
+    padding: 20px 20px;
+    height: 45em;
+    margin-bottom: 10px;
+    margin-right:
+}
+.form p{
+    color: white;
+    font-size: 24px;
+}
+
+.iframe{
+    padding: 10px 20px;
+    height: 45em;
+    background-color: white;
+    
+}
+
+.iframe iframe{
+    height: 33em;
+}
+.btn-block{
+    font-size: 28px;
+}
+/*footer*/
+footer .fa{
+    color: blue;
+    font-size: 32px;
+}
+footer h2{
+    color: red;
+    font-size: 37px;
+}
+footer ul li{
+    display: inline;
+    padding-right: 15px;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" >
+
+    <!-- Custom styles for this template -->
+    <style type="text/css">
+        body {
+            padding-top: 5rem;
+        }
+        .starter-template {
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+<body>
+<div class="container" >
+   <div class="row">
+   <div class="col-lg-12">
+    <h1> welcome to our plugin</h1>
+       </div>
+    <div class="row text-center">
+       <div class="col-lg-12 text-center">
+        <input type="button" class="btn-outline-primary" id="all" value="All files">
+        <input type="button" class="btn-outline-primary" id="hide" value="Hide files">
+        <input type="button" class="btn-outline-primary" id="web" value="web design">
+        <input type="button" class="btn-outline-primary" id="webdv" value="web development">
+        <input type="button" class="btn-outline-primary" id="wrd" value="wordpress">
+    </div>
+    </div>
+    </div>
+</div>
+    <div class="container">
+        <div class="row">
+           <div class="webDesign">
+            <div class="col-lg-3">
+                <div class="thumbnail">
+                    <img src="img/DSC04140.jpg" height="200px">
+                    
+                </div>
+            </div>
+                
+            </div>
+            <div class="webDevelopment">
+            <div class="col-lg-3">
+                <div class="thumbnail">
+                    <img src="img/DSC06440.jpg" height="200px">
+                    
+                </div>
+            </div>
+                
+            </div>
+           <div class="wordpress">
+            <div class="col-lg-3">
+                <div class="thumbnail">
+                    <img src="img/HNCK1685.jpg" height="200px">
+                    
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" ></script>
+    <script type="text/javascript">
+       $(document).ready(function(){
+           $("#all").click(function(){
+               $(".webDesign").show(500);
+               $(".webDevelopment").show(400);
+               $(".wordpress").show(400);
+           });
+           
+           $("#hide").click(function(){
+               $(".webDesign").hide(500);
+               $(".webDevelopment").hide(500);
+                $(".wordpress").hide(400);
+               
+           });
+           $("#web").click(function(){
+               $(".webDesign").show(5000);
+               $(".webDevelopment").hide(400);
+                $(".wordpress").hide(400);
+               
+           });
+           $("#webdv").click(function(){
+               $(".webDesign").hide(5000);
+               $(".webDevelopment").show(400);
+                $(".wordpress").hide(400);
+               
+           });
+            
+           $("#wrd").click(function(){
+               $(".webDesign").hide(5000);
+               $(".webDevelopment").hide(400);
+                $(".wordpress").show(400);
+               
+           });
+            
+       }); 
+        
+    </script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script>
+        (function() {
+            'use strict'
+
+            if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+                var msViewportStyle = document.createElement('style')
+                msViewportStyle.appendChild(
+                    document.createTextNode(
+                        '@-ms-viewport{width:auto!important}'
+                    )
+                )
+                document.head.appendChild(msViewportStyle)
+            }
+
+        }())
+    </script>
+
+</body>
+</html>
